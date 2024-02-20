@@ -2,28 +2,12 @@
 layout: post
 title:  "Welcome to Mingi's devlog!"
 date:   2024-02-18 22:13:46 +0900
-categories: jekyll update
+categories: Introducing Blog
 ---
-You’ll find this post in your `_posts` directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run `jekyll serve`, which launches a web server and auto-regenerates your site when a file is updated.
+안녕하세요 한걸음씩 정진하고 포기를 모르는 개발자 `전민기` 입니다.
 
-Jekyll requires blog post files to be named according to the following format:
+평소에 노션을 즐겨 쓰다가 블로깅을 하려고 보던 중 마크다운으로 블로깅을 할 수 있는 것이 무엇이 있을까
+찾던 도중 `Git Blog` 를 사용하려고 합니다.
 
-`YEAR-MONTH-DAY-title.MARKUP`
-
-Where `YEAR` is a four-digit number, `MONTH` and `DAY` are both two-digit numbers, and `MARKUP` is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.
-
-Jekyll also offers powerful support for code snippets:
-
-{% highlight ruby %}
-def print_hi(name)
-puts "Hi, #{name}"
-end
-print_hi('Tom')
-#=> prints 'Hi, Tom' to STDOUT.
-{% endhighlight %}
-
-Check out the [Jekyll docs][jekyll-docs] for more info on how to get the most out of Jekyll. File all bugs/feature requests at [Jekyll’s GitHub repo][jekyll-gh]. If you have questions, you can ask them on [Jekyll Talk][jekyll-talk].
-
-[jekyll-docs]: https://jekyllrb.com/docs/home
-[jekyll-gh]:   https://github.com/jekyll/jekyll
-[jekyll-talk]: https://talk.jekyllrb.com/
+많이 부족하지만 쓴소리 많이 들으려고 블로그 시작한 만큼 조언이나 더욱 나은 해법이 있다면 왼쪽 아래 `Instagram` 버튼
+으로 `DM` 부탁드려요!
