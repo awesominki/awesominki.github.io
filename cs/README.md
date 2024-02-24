@@ -9,14 +9,19 @@ permalink: /cs/
 ---
 
 
-## 운영체제
+## 개발 상식
+
+---
 * [Part 1-1 좋은 코드란 무엇일까?]{:.heading.flip-title} --- 시작 하기 앞서..
 * [Part 1-2 좋은 코드를 짜기 위해서]{:.heading.flip-title} --- 방법 알아보기
 
-[//]: # (* [운영체제란]{:.heading.flip-title} --- 운영체제란 무엇일까?)
+## 네트워크
 
-[//]: # ()
-[//]: # ([운영체제란]: os.md)
+---
+* [Part 2-1 Network 기본]{:.heading.flip-title} --- 네트워크 Basic
+
+
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
 [Part 1-2 좋은 코드를 짜기 위해서]: 1-2.md
+[Part 2-1 Network 기본]: 2-1.md
 
