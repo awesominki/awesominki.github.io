@@ -25,6 +25,7 @@ permalink: /cs/
 
 ---
 * [Part 3-1 프로세스와 스레드]{:.heading.flip-title} --- 차이점과 스케줄러
+* [Part 3-2 동기 & 비동기]{:.heading.flip-title} --- 동기 & 비동기
 
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
@@ -32,3 +33,4 @@ permalink: /cs/
 [Part 2-1 Network 기본]: 2-1.md
 [Part 2-2 웹 통신의 흐름]: 2-2.md
 [Part 3-1 프로세스와 스레드]: 3-1.md
+[Part 3-2 동기 & 비동기]: 3-2.md
