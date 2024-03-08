@@ -28,6 +28,11 @@ permalink: /cs/
 * [Part 3-2 동기 & 비동기]{:.heading.flip-title} --- 동기 & 비동기
 * [Part 3-3 메모리 관리]{:.heading.flip-title} --- 메모리 관리
 
+## 데이터베이스
+
+---
+* [Part 4-1 데이터 베이스]{:.heading.flip-title} --- 인덱스와 정규화
+
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
 [Part 1-2 좋은 코드를 짜기 위해서]: 1-2.md
@@ -36,3 +41,4 @@ permalink: /cs/
 [Part 3-1 프로세스와 스레드]: 3-1.md
 [Part 3-2 동기 & 비동기]: 3-2.md
 [Part 3-3 메모리 관리]: 3-3.md
+[Part 4-1 데이터 베이스]: 4-1.md
