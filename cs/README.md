@@ -35,6 +35,7 @@ permalink: /cs/
 * [Part 4-1 데이터 베이스]{:.heading.flip-title} --- 인덱스와 정규화
 * [Part 4-2 Transaction]{:.heading.flip-title} --- 트랜잭션에 대해서
 * [Part 4-3 Nosql]{:.heading.flip-title} --- Nosql
+* [Part 4-4 SQL Injection]{:.heading.flip-title}
 
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
@@ -48,4 +49,5 @@ permalink: /cs/
 [Part 4-1 데이터 베이스]: 4-1.md
 [Part 4-2 Transaction]: 4-2.md
 [Part 4-3 Nosql]: 4-3.md
+[Part 4-4 SQL Injection]: 4-4.md
 
