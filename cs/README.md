@@ -27,6 +27,7 @@ permalink: /cs/
 * [Part 3-1 프로세스와 스레드]{:.heading.flip-title} --- 차이점과 스케줄러
 * [Part 3-2 동기 & 비동기]{:.heading.flip-title} --- 동기 & 비동기
 * [Part 3-3 메모리 관리]{:.heading.flip-title} --- 메모리 관리
+* [Part 3-4 인터럽트(Interrupt)]{:.heading.flip-title}
 
 ## 데이터베이스
 
@@ -43,6 +44,8 @@ permalink: /cs/
 [Part 3-1 프로세스와 스레드]: 3-1.md
 [Part 3-2 동기 & 비동기]: 3-2.md
 [Part 3-3 메모리 관리]: 3-3.md
+[Part 3-4 인터럽트(Interrupt)]: 3-4.md
 [Part 4-1 데이터 베이스]: 4-1.md
 [Part 4-2 Transaction]: 4-2.md
 [Part 4-3 Nosql]: 4-3.md
+
