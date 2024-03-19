@@ -24,6 +24,7 @@ permalink: /cs/
 * [Part 2-4 공개키 & 대칭키]{:.heading.flip-title}
 * [Part 2-5 RESTful , 쿠키&세션]{:.heading.flip-title} --- RESTful과 쿠키 vs 세션에 대해서
 * [Part 2-6 네이버를 치면 일어나는 일]{:.heading.flip-title}
+* [Part 2-7 Load Balancer]{:.heading.flip-title}
 
 ## 운영체제
 
@@ -51,6 +52,7 @@ permalink: /cs/
 [Part 2-4 공개키 & 대칭키]: 2-4.md
 [Part 2-5 RESTful , 쿠키&세션]: 2-5.md
 [Part 2-6 네이버를 치면 일어나는 일]: 2-6.md
+[Part 2-7 Load Balancer]: 2-7.md
 
 [Part 3-1 프로세스와 스레드]: 3-1.md
 [Part 3-2 동기 & 비동기]: 3-2.md
