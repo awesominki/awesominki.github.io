@@ -42,6 +42,11 @@ permalink: /cs/
 * [Part 4-3 Nosql]{:.heading.flip-title} --- Nosql
 * [Part 4-4 SQL Injection]{:.heading.flip-title}
 
+## Data Structure
+
+---
+* [Part 5-1 Array vs LinkedList]{:.heading.flip-title}
+
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
 [Part 1-2 좋은 코드를 짜기 위해서]: 1-2.md
@@ -63,4 +68,6 @@ permalink: /cs/
 [Part 4-2 Transaction]: 4-2.md
 [Part 4-3 Nosql]: 4-3.md
 [Part 4-4 SQL Injection]: 4-4.md
+
+[Part 5-1 Array vs LinkedList]: 5-1.md
 
