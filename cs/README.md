@@ -46,6 +46,7 @@ permalink: /cs/
 
 ---
 * [Part 5-1 Array vs LinkedList]{:.heading.flip-title}
+* [Part 5-2 Stack과 Queue]{:.heading.flip-title}
 
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
@@ -70,4 +71,5 @@ permalink: /cs/
 [Part 4-4 SQL Injection]: 4-4.md
 
 [Part 5-1 Array vs LinkedList]: 5-1.md
+[Part 5-2 Stack과 Queue]: 5-2.md
 
