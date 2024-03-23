@@ -47,6 +47,7 @@ permalink: /cs/
 ---
 * [Part 5-1 Array vs LinkedList]{:.heading.flip-title}
 * [Part 5-2 Stack과 Queue]{:.heading.flip-title}
+* [Part 5-3 Tree]{:.heading.flip-title}
 
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
@@ -72,4 +73,6 @@ permalink: /cs/
 
 [Part 5-1 Array vs LinkedList]: 5-1.md
 [Part 5-2 Stack과 Queue]: 5-2.md
+[Part 5-3 Tree]: 5-3.md
+
 
