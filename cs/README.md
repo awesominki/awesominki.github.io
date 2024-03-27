@@ -51,6 +51,7 @@ permalink: /cs/
 * [Part 5-4 Heap]{:.heading.flip-title}
 * [Part 5-5 B Tree & B+ Tree]{:.heading.flip-title}
 * [Part 5-6 Hash]{:.heading.flip-title}
+* [Part 5-7 이진 탐색 트리]{:.heading.flip-title}
 
 
 [Part 1-1 좋은 코드란 무엇일까?]: 1-1.md
@@ -80,4 +81,5 @@ permalink: /cs/
 [Part 5-4 Heap]: 5-4.md
 [Part 5-5 B Tree & B+ Tree]: 5-5.md
 [Part 5-6 Hash]: 5-6.md
+[Part 5-7 이진 탐색 트리]: 5-7.md
 
