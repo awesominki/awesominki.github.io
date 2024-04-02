@@ -13,6 +13,7 @@ permalink: /java/
 * [3. == 와 equals() 차이 & Wrapper Class]{:.heading.flip-title}
 * [4. 기본형과 참조형, 오버라이딩과 오버로딩]{:.heading.flip-title}
 * [5. final, non-static & static]{:.heading.flip-title}
+* [6. 추상 클래스]{:.heading.flip-title}
 
 
 [1. Call by value vs Call by Reference]: 1.md
@@ -20,5 +21,5 @@ permalink: /java/
 [3. == 와 equals() 차이 & Wrapper Class]: 3.md
 [4. 기본형과 참조형, 오버라이딩과 오버로딩]: 4.md
 [5. final, non-static & static]: 5.md
-
+[6. 추상 클래스]: 6.md
 
