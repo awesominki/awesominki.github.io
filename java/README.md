@@ -16,6 +16,7 @@ permalink: /java/
 * [6. 추상 클래스]{:.heading.flip-title}
 * [7. 인터페이스]{:.heading.flip-title}
 * [8. 변수의 종류와 메모리 구조]{:.heading.flip-title}
+* [9. Thread]{:.heading.flip-title}
 
 
 [1. Call by value vs Call by Reference]: 1.md
@@ -26,3 +27,4 @@ permalink: /java/
 [6. 추상 클래스]: 6.md
 [7. 인터페이스]: 7.md
 [8. 변수의 종류와 메모리 구조]: 8.md
+[9. Thread]: 9.md
