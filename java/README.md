@@ -18,6 +18,7 @@ permalink: /java/
 * [8. 변수의 종류와 메모리 구조]{:.heading.flip-title}
 * [9. Thread]{:.heading.flip-title}
 * [10. String]{:.heading.flip-title}
+* [11. JVM]{:.heading.flip-title}
 
 
 [1. Call by value vs Call by Reference]: 1.md
@@ -30,3 +31,4 @@ permalink: /java/
 [8. 변수의 종류와 메모리 구조]: 8.md
 [9. Thread]: 9.md
 [10. String]: 10.md
+[11. JVM]: 11.md
