@@ -20,7 +20,7 @@ WHERE 조건
 
 ```sql
 SUM(컬럼명)
-MAN(컬럼명)
+MAX(컬럼명)
 MIN(컬럼명)
 ```
 
