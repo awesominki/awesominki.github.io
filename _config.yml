@@ -48,14 +48,17 @@ author:
 
 # Add links to the sidebar.
 menu:
+  - title:              MSA
+    url:                /msa/
+  - title: DevOps
+    url: /devops/
   - title:              CS
     url:                /cs/
   - title:             JAVA
     url:               /java/
   - title:             MYSQL
     url:               /mysql/
-  - title:             DevOps
-    url:               /devops/
+
 
 # Add links to the footer.
 # Typically you'll want to link to your cookie- or privacy policy (if appliable), etc..
