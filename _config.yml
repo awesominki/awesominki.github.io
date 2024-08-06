@@ -50,6 +50,8 @@ author:
 menu:
   - title:              MSA
     url:                /msa/
+  - title: REDIS
+    url: /redis/
   - title: DevOps
     url: /devops/
   - title:              CS
