@@ -50,15 +50,15 @@ author:
 menu:
   - title:              MSA
     url:                /msa/
-  - title: REDIS
+  - title: Redis
     url: /redis/
   - title: DevOps
     url: /devops/
   - title:              CS
     url:                /cs/
-  - title:             JAVA
+  - title:             Java
     url:               /java/
-  - title:             MYSQL
+  - title:             MySQL
     url:               /mysql/
 
 
