@@ -14,6 +14,7 @@ permalink: /msa/
 * [4. 서킷 브레이커 (Resilience4j)]{:.heading.flip-title}
 * [5. API 게이트웨이 (Spring Cloud Gateway)]{:.heading.flip-title}
 * [6. 보안 구성 (OAuth2 + JWT)]{:.heading.flip-title}
+* [7. 컨피그 서버 (Spring Cloud Config)]{:.heading.flip-title}
 
 
 [1. MSA와 Spring Cloud]: 1.md
@@ -22,3 +23,4 @@ permalink: /msa/
 [4. 서킷 브레이커 (Resilience4j)]: 4.md
 [5. API 게이트웨이 (Spring Cloud Gateway)]: 5.md
 [6. 보안 구성 (OAuth2 + JWT)]: 6.md
+[7. 컨피그 서버 (Spring Cloud Config)]: 7.md
