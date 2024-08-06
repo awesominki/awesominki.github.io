@@ -15,6 +15,8 @@ permalink: /msa/
 * [5. API 게이트웨이 (Spring Cloud Gateway)]{:.heading.flip-title}
 * [6. 보안 구성 (OAuth2 + JWT)]{:.heading.flip-title}
 * [7. 컨피그 서버 (Spring Cloud Config)]{:.heading.flip-title}
+* [8. 분산 추적 (Spring Cloud Sleuth) 및 로깅 (Zipkin)]{:.heading.flip-title}
+* [9. 이벤트 드리븐 아키텍처와 스트림 처리 (Spring Cloud Stream)]{:.heading.flip-title}
 
 
 [1. MSA와 Spring Cloud]: 1.md
@@ -24,3 +26,5 @@ permalink: /msa/
 [5. API 게이트웨이 (Spring Cloud Gateway)]: 5.md
 [6. 보안 구성 (OAuth2 + JWT)]: 6.md
 [7. 컨피그 서버 (Spring Cloud Config)]: 7.md
+[8. 분산 추적 (Spring Cloud Sleuth) 및 로깅 (Zipkin)]: 8.md
+[9. 이벤트 드리븐 아키텍처와 스트림 처리 (Spring Cloud Stream)]: 9.md
