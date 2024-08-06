@@ -13,6 +13,7 @@ permalink: /msa/
 * [3. 클라이언트 사이드 로드 밸런싱]{:.heading.flip-title}
 * [4. 서킷 브레이커 (Resilience4j)]{:.heading.flip-title}
 * [5. API 게이트웨이 (Spring Cloud Gateway)]{:.heading.flip-title}
+* [6. 보안 구성 (OAuth2 + JWT)]{:.heading.flip-title}
 
 
 [1. MSA와 Spring Cloud]: 1.md
@@ -20,3 +21,4 @@ permalink: /msa/
 [3. 클라이언트 사이드 로드 밸런싱]: 3.md
 [4. 서킷 브레이커 (Resilience4j)]: 4.md
 [5. API 게이트웨이 (Spring Cloud Gateway)]: 5.md
+[6. 보안 구성 (OAuth2 + JWT)]: 6.md
