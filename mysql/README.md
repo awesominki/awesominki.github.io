@@ -1,6 +1,6 @@
 ---
 layout: page
-title: MYSQL 정리 노트
+title: MySQL 정리 노트
 description: >
   SQL 코테 뿌시자 아자아자 :)
 hide_description: true

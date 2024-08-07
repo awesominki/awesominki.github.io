@@ -1,6 +1,6 @@
 ---
 layout: page
-title: REDIS
+title: Redis
 description: >
 hide_description: true
 sitemap: false

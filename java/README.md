@@ -1,8 +1,8 @@
 ---
 layout: page
-title: JAVA note
+title: Java note
 description: >
-  JAVA 정리 노트 입니다!
+  Java 정리 노트 입니다!
 hide_description: true
 sitemap: false
 permalink: /java/ 
