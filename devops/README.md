@@ -12,9 +12,12 @@ permalink: /devops/
 ---
 * [1. CI/CD]{:.heading.flip-title}
 * [2. AmazonECS]{:.heading.flip-title}
+* [3. CI/CD 구축 실습]{:.heading.flip-title}
 
 [1. CI/CD]: CICD_1.md
 [2. AmazonECS]: CICD_2.md
+[3. CI/CD 구축 실습]: CICD_3.md
+
 
 ## Docker
 
