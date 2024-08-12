@@ -24,7 +24,7 @@ sitemap: false
     - ECS Task: ECS Server에 실제로 실행되는 docker container들을 Task 라고 합니다.
     - 로드밸런서와, 모니터링, Auto Scaling 등의 요소도 있음. ECS를 이용하면 이런 요소들까지 자동으로 관리
 
-      ![Untitled](https://teamsparta.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2Fae4b5629-2294-41de-885b-05bb56a80583%2FUntitled.png?table=block&id=1edfc72c-ee61-4181-a9b6-c33043b7d65c&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1300&userId=&cache=v2)
+      ![Untitled](https://github.com/user-attachments/assets/9d66aa8a-c798-45c2-b1ff-ce9b0354d950)
 
 - Task definition
     - ECS의 최소 실행단위는 “Task”
