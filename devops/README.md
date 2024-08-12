@@ -7,12 +7,14 @@ sitemap: false
 permalink: /devops/ 
 ---
 
-## AWS
+## CI/CD
 
 ---
-* [1. EC2,RDS를 활용하여 배포하기]{:.heading.flip-title}
+* [1. CI/CD]{:.heading.flip-title}
+* [2. AmazonECS]{:.heading.flip-title}
 
-[1. EC2,RDS를 활용하여 배포하기]: 1.md
+[1. CI/CD]: CICD_1.md
+[2. AmazonECS]: CICD_2.md
 
 ## Docker
 
@@ -25,3 +27,10 @@ permalink: /devops/
 [1. Docker]: Docker_1.md
 [2. Docker Compose]: Docker_2.md
 [3. Docker Network & Spring Boot 연동]: Docker_3.md
+
+## AWS
+
+---
+* [1. EC2,RDS를 활용하여 배포하기]{:.heading.flip-title}
+
+[1. EC2,RDS를 활용하여 배포하기]: 1.md
