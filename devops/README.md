@@ -7,11 +7,18 @@ sitemap: false
 permalink: /devops/ 
 ---
 
+## 대규모 스트림 처리
+
+---
+* [1. 대규모 시스템 개요]{:.heading.flip-title}
+
+[1. 대규모 시스템 개요]: BS_1.md
+
 ## CI/CD
 
 ---
 * [1. CI/CD]{:.heading.flip-title}
-* [2. AmazonECS]{:.heading.flip-title}
+* [2. AmazonECS]{:.heading.flip-title} 
 * [3. CI/CD 구축 실습]{:.heading.flip-title}
 
 [1. CI/CD]: CICD_1.md
