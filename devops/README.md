@@ -11,8 +11,10 @@ permalink: /devops/
 
 ---
 * [1. 대규모 시스템 개요]{:.heading.flip-title}
+* [2. RabbitMQ]{:.heading.flip-title}
 
 [1. 대규모 시스템 개요]: BS_1.md
+[2. RabbitMQ]: BS_2.md
 
 ## CI/CD
 
