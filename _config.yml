@@ -27,7 +27,7 @@ title:                 Tyler
 description:           >
 
 # A shorter description for the sidebar.
-tagline:                Tyler Jeon devlog
+tagline:                Awesome!
 
 # A list of keywords for your blog
 keywords:              []
@@ -72,7 +72,7 @@ menu:
 #    url:               /CHANGELOG/
 
 # This text will appear in a `<small>` tag in the footer of every page.
-copyright:             © 2024. All rights reserved.
+copyright:             © 2024. Tyler All rights reserved.
 
 # Format of the permalinks
 permalink:             /:categories/:year-:month-:day-:title/
@@ -93,7 +93,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/Bg.jpeg
+accent_image:          /assets/img/Bg.png
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
