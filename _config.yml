@@ -53,6 +53,8 @@ menu:
     url: /redis/
   - title: DevOps
     url: /devops/
+  - title: Security
+    url: /security/
   - title:              CS
     url:                /cs/
   - title:             Java
