@@ -1,12 +1,12 @@
 ---
 layout: page
-title: 1. 모니터링 개요 및 Spring Boot Actuator
+title: 1. Monitoring 개요 및 Spring Boot Actuator
 description: >
 hide_description: true
 sitemap: false
 ---
 
-## 1.1 모니터링 개요
+## 1.1 Monitoring 개요
 
 ### 1.1.1 모니터링이란?
 
