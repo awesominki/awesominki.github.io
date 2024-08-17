@@ -93,7 +93,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MjRfNTUg%2FMDAxNjIxODI3NzAyMzA4.uN8X9y0MH30rpcYs6R91jMnvhQLLmHI8N1Io9B3jAkQg.6Q1ghWcRxJPoydAOTLOExj_DcEYxMVD_MgWUKmu1n6Ig.JPEG.langmang%2F19cf681b90171bb49e58da8dab766be7.jpg&type=sc960_832
+accent_image:          /assets/img/Bg.jpeg
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
