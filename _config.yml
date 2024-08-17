@@ -20,15 +20,14 @@
 lang:                  en
 
 # The title of your blog. Used in the sidebar and the browser tab.
-title:                 MINGI JEON
+title:                 Tyler
 
 # A short description (~150 chars) of the page used for the meta description tag.
 # Can use markdown, but no more than one paragraph (enforced by `>`)
 description:           >
-  한걸음씩 정진하는 개발자 awesominki 입니다!
 
 # A shorter description for the sidebar.
-tagline:                MINGI's devlog
+tagline:                Tyler Jeon devlog
 
 # A list of keywords for your blog
 keywords:              []
@@ -41,7 +40,7 @@ logo:                  /assets/img/logo.png
 # This should be the same author as first entry in `_data/authors.yml`.
 author:
   # Used by `jekyll-feed`:
-  name:                MINGI JEON
+  name:                Tyler
   email:               oversteam@naver.com
   # # Used by `jekyll-seo-tag`:
   # twitter:             <username>
@@ -94,7 +93,7 @@ remote_theme: hydecorp/hydejack@v9
 # ----------------------------------------------------------------------------------------
  
 # Sidebar image and theme color of the site.
-accent_image:          /assets/img/Bg.jpeg
+accent_image:          https://search.pstatic.net/common/?src=http%3A%2F%2Fblogfiles.naver.net%2FMjAyMTA1MjRfNTUg%2FMDAxNjIxODI3NzAyMzA4.uN8X9y0MH30rpcYs6R91jMnvhQLLmHI8N1Io9B3jAkQg.6Q1ghWcRxJPoydAOTLOExj_DcEYxMVD_MgWUKmu1n6Ig.JPEG.langmang%2F19cf681b90171bb49e58da8dab766be7.jpg&type=sc960_832
 accent_color:          rgb(79,177,186)
 
 # This is used for the `theme-color` meta tag,
