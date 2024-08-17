@@ -38,7 +38,7 @@ cd apache-jmeter-5.6.2
 
   ![Untitled](https://teamsparta.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F13632bc6-d68c-4d26-86b7-36face06ef73%2FUntitled.png?table=block&id=a30caa16-5bbf-4a7a-87da-4e35573835ba&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=1420&userId=&cache=v2)
 
-- HTTP 요청의 항목을 입력합니다. 지금까지 PostMan으로 테스트 한것을 기반으로 입력하면 되겠습니다.
+- HTTP 요청의 항목을 입력합니다. 지금까지 Talend에서 테스트 한것을 기반으로 입력하면 되겠습니다.
 
   ![Untitled](https://teamsparta.notion.site/image/https%3A%2F%2Fprod-files-secure.s3.us-west-2.amazonaws.com%2F83c75a39-3aba-4ba4-a792-7aefe4b07895%2F1e930533-6268-4057-a4cf-788ba1d811ae%2FUntitled.png?table=block&id=23811cec-f005-4c38-aa2b-318a8d5f3e65&spaceId=83c75a39-3aba-4ba4-a792-7aefe4b07895&width=2000&userId=&cache=v2)
 
