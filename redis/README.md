@@ -8,14 +8,20 @@ permalink: /redis/
 ---
 
 * [1. Redis 소개 및 설치]{:.heading.flip-title}
+<br></br>
 * [2. Redis 타입 살펴보기]{:.heading.flip-title}
+<br></br>
 * [3. Spring에서 Redis 사용해보기]{:.heading.flip-title}
+
 
 # 인메모리 저장소 및 캐싱 전략
 ---
 * [4. HttpSession과 Session Clustering]{:.heading.flip-title}
+  <br></br>
 * [5. 리더보드와 Sorted Set]{:.heading.flip-title}
+  <br></br>
 * [6. 캐싱 개념, 캐싱 전략]{:.heading.flip-title}
+  <br></br>
 * [7. Spring Boot 프로젝트에 캐싱 적용하기]{:.heading.flip-title}
 
 [1. Redis 소개 및 설치]: 1.md

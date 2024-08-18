@@ -9,13 +9,21 @@ permalink: /msa/
 
 
 * [1. MSA와 Spring Cloud]{:.heading.flip-title}
+
 * [2. 서비스 디스커버리 (Eureka)]{:.heading.flip-title}
+
 * [3. 클라이언트 사이드 로드 밸런싱]{:.heading.flip-title}
+
 * [4. 서킷 브레이커 (Resilience4j)]{:.heading.flip-title}
+
 * [5. API 게이트웨이 (Spring Cloud Gateway)]{:.heading.flip-title}
+
 * [6. 보안 구성 (OAuth2 + JWT)]{:.heading.flip-title}
+
 * [7. 컨피그 서버 (Spring Cloud Config)]{:.heading.flip-title}
+
 * [8. 분산 추적 (Spring Cloud Sleuth) 및 로깅 (Zipkin)]{:.heading.flip-title}
+
 * [9. 이벤트 드리븐 아키텍처와 스트림 처리 (Spring Cloud Stream)]{:.heading.flip-title}
 
 

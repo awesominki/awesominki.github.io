@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Java 면접 질문 노트
+title: Java note
 hide_description: true
 sitemap: false
 permalink: /java/ 
