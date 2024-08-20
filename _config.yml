@@ -55,10 +55,10 @@ menu:
     url: /devops/
   - title: Security
     url: /security/
-  - title:              CS
+  - title: Java
+    url: /java/
+  - title:              Computer Science
     url:                /cs/
-  - title:             Java
-    url:               /java/
   - title:             MySQL
     url:               /mysql/
 
