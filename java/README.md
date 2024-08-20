@@ -76,50 +76,193 @@ GC를 사용하면 다음과 같은 장단점이 있다.
   - Overloading : 동일 클래스의 동일한 메소드가 매개 변수의 타입이나 개수에 따라 다르게 동작
   - 예) Animal Class의 Bark Method를 Cat Class의 Bark Method가 Overriding 해서 사용
 
+### 객체 지향 설계의 5가지 원칙 (SOLID)
+
+- S : 단일 책임 원칙
+  - SRP : Single Responsibility Principle
+  - 객체는 단 하나의 책임만 가져야 한다.
+- O : 개방-폐쇄 원칙
+  - OCP : Open Closed Principle
+  - 기존의 코드를 변경하지 않으면서 기능을 추가할 수 있도록 설계해야 한다.
+- L : 리스코프 치환 원칙
+  - LSP : Liskov Substitution Principle
+  - 자식 클래스는 자신의 부모 클래스에서 가능한 행위를 수행할 수 있어야 한다.
+- I : 인터페이스 분리 원칙
+  - ISP : Interface Segregation Principle
+  - 클래스는 자신과 관련 없는 인터페이스는 구현하지 않는다.
+- D : 의존 역전 원칙
+  - DIP : Dependency Iversion Principle
+  - 상위 모듈은 하위 모듈에 종속 되면 안되고, 둘 다 추상화에 의존해야 한다.
+  - 예) 상위 모듈인 자동차를 만드는데 하위 모듈인 스노우 타이어를 참조하지 말고, 상위 모듈인 타이어를 추상화 해서 사용한다.
+
+### 객체 지향 프로그래밍을 하는 이유는?
+
+- 코드의 재사용성 증가
+- 유지보수 용이성
+- 간결한 코드
+- 높은 확장성
+- 강한 응집력과 약한 결합력
+- 보안성 향상
+- 소프트웨어 생산성 향상
+
+### 접근 제어자 종류
+
+|   제어자   |  동일 클래스  |  동일 패키지  |  자식 클래스   | 전체  |
+|:-------:|:--------:|:--------:|:---------:|:---:|
+| public  |    O     |O|O|O|
+|protected|O|O|O|X|
+|default|O|O|X|X|
+|private|O|X|X|X|
+
+### Static VS Non-Static
+
+- Member
+
+||  static Member  |non-static Member|
+|:---:|:-----------:|:---:|
+|From| 클래스에 속하는 멤버 |객체에 속하는 멤버|
+|초기화 시점|클래스가 로딩될 때 초기화되며, 프로그램 종료까지 메모리에 유지|객체가 생성될 때 초기화되며, 객체가 삭제될 때까지 메모리에 유지|
+|생성 타이밍|클래스를 로딩할 때 생성되며, 클래스의 인스턴스를 생성하지 않고도 사용 가능|클래스의 인스턴스를 생성해야 사용 가능|
+|Value|클래스마다 공유되는 값|객체마다 다른 값|
+|용도|유틸리티 메서드 등을 표현, 상수 값을 저장하는 데 사용|객체의 상태를 표현, 객체 간의 관계를 나타내는데 사용|
+|ex|데이터베이스의 연결 정보나, 프로그램에서 공유해야 할 상수 값|학생 객체를 생성하면서 학생의 이름, 학번, 성적 등의 정보|
+
+- Method
+
+|                 |static Method|non-static Method|
+|:---------------:|:---:|:---:|
+|      호출 방법      |객체를 생성하지 않고도 클래스 이름으로 직접 호출|객체를 생성한 후, 객체 이름을 사용하여 호출|
+|      From       |클래스에 속하는 메서드|객체에 속하는 메서드|
+| 객체 상태에 대한 접근 여부 |Static 메서드는 객체 상태에 접근 X|Non-Static 메서드는 객체의 상태에 접근 O|
+|    객체 생성 여부     |객체를 생성하지 않고도 호출할 수 있기 때문에, 객체 생성 전에도 호출 O|메서드는 객체를 생성해야만 호출 O|
+|       다형성       |다형성X|다형성O|
+|       용도        |객체와 관계없는 작업을 수행, 객체를 생성하기 전에 사용해야 하는 작업을 수행할 때 사용|객체의 상태에 따라 동작하는 작업을 수행할 때 사용|
+
+### Java의 main 메소드가 static인 이유? (public static void main(){String args[]})
+
+static 변수를 첫 단계로 [Runtime Data Area](#jvm-runtime-data-area)중 Method Area에 올려서 프로그램을 실행시켜 main() 메소드를 호출하기 때문입니다.
+
+따라서 JVM은 이를 통해 Method Area에 로드된 main()을 실행하게 됩니다.
+
+### 직렬화, 역직렬화
+
+#### 직렬화
+- 자바 시스템 내부에서 사용되는 객체 또는 데이터를 외부의 자바 시스템에서도 사용할 수 있도록 바이트 형태로 데이터를 변환하는 기술
+- 조건
+  - Serializable 인터페이스 상속받은 객체
+- ObjectOutputStream 객체를 이용
+
+#### 역직렬화
+- 바이트로 변환된 데이터를 다시 객체로 변환하는 기술
+- ObjectInputStream 객체를 이용
+
+### 추상 클래스 VS 인터페이스
+
+#### 공통점
+
+- 객체를 생성 할 수 없다.
+- 추상 메서드를 포함한다.
+- 상속받는 클래스에서는 추상 메서드를 반드시 재정의하여 구현해야 한다.
+
+#### 차이점
+
+|구분|추상 클래스|인터페이스|
+|:---:|:---:|:---:|
+|개념적 목적|상송 받아서 기능을 확장시키는데 목적|구현 객체의 동일한 실행 기능을 보장하기 위한 목적|
+|클래스|클래스다(abstract class)|클래스가 아니다(interface)|
+|일반 메서드|일반 메서드 정의가 가능|일반 메서드 정의 불가능(Java8 이후 static, default 메서드 정의 가능)|
+|멤버 변수|클래스와 동일하게 변수 선언 및 사용 가능|상수만 사용 가능|
+|상속 키워드|extends|implements|
+|다중 상속|불가능|가능|
+
+### List, Map, Set 차이
+
+- List
+  - 순서와 중복이 허용된다.
+  - 배열 크기가 가변적이다.
+  - 데이터가 커지면 속도 이슈가 있다.
+  - 인덱스로 원소에 접근한다.
+- Map
+  - Key, Value 한 쌍으로 저장되고 순서가 없다.
+  - Key는 중복될 수 없다.
+  - Value는 중복이 허용된다.
+  - 별도 인덱스가 없다.
+  - 검색 속도가 빠르다.
+- Set
+  - 순서가 없고 중복도 허용되지 않는다.
+  - 인덱스를 사용하지 않는다.
+  - 검색 속도가 빠르다.
+
+### Optional?
+
+NullPointerException을 피하기 위해 null 여부 검사를 하게 되는데, 검사를 해야 하는 변수가 많을 수록 코드가 번거롭다.
+따라서 Optional<T> 클래스를 사용해 NullPointerException 발생을 방지하도록 도와줍니다. 
+null이 올 수 있는 값을 감싸는 Wrapper 클래스로, 참조하더라도 NullPointerException이 발생하지 않도록 도와줍니다.
+
+### 동기화(Synchronized)
+
+만일 JavaScript를 다루면서 AJax통신에 대해서 다뤄 보았다면 이해가 더 잘될꺼라 생각된다.
+
+AJax(Asynchronous JavaScript And XML)란 웹의 비동기적 통신을 위한 기술이다.
+
+여기서 비동기적 통신의 의미는 만약, 우리가 웹사이트를 이용할 경우 다양한 기능을 사용할 것이다.
+예를 들어, 댓글을 달거나 회원가입 시에 이메일 혹은 문자를 전송할 경우 우리의 웹 페이지는 새로고침이 되지 않는다.
+
+즉, 웹 페이지 전체를 리프레쉬 하지 않고 일부분의 Event만 수행하게 하는 것이 비동기적 통신의 간략한 설명이다.
+
+그렇다면, **Synchronized**란 간단히 말해 하나의 프로세스가 진행될 때 다른 프로세스가 간섭하지 못하게 해당 프로세스만을 진행하고 수행하도록 하는 것이라고 설명할 수 있다.
+
+이 기능은 하나의 프로세스 연산 중에 다른 프로세스들이 동시에 접근하는 것을 허용하지 않을때 주로 사용된다.
+
+### String, StringBuffer, StringBuilder
+
+#### String vs StringBuffer, StringBuilder
+
+String -> 불변성, StringBuffer, StringBuilder 가변성이다. 쉽게 그림 첨부
+
+![String](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbbConT%2FbtrD2HaWZWh%2Fb3w10xYFPDKNItalQpQH91%2Fimg.png)
+
+![SB](https://img1.daumcdn.net/thumb/R1280x0/?scode=mtistory2&fname=https%3A%2F%2Fblog.kakaocdn.net%2Fdn%2FbZzL6Z%2FbtrD7FXgYVV%2FYacgVmDx76kVwqNLjhiEW1%2Fimg.png)
+
+#### StringBuffer VS StringBuilder
+
+StringBuffer는 동기화 키워드를 지원하여 멀티쓰레드 환경에서 안전하다. 반대로 StringBuilder는 멀티쓰레드 환경에서 사용하는 것은 적합하지 않지만 동기화를 고려하지 않는 싱글쓰레드에서의 성능은 StringBuffer보다 뛰어나다.
+
+PS. String도 불변성을 가지기 때문에 마찬가지로 멀티쓰레드 환경에서 안전하다.
+
+### 제네릭
+
+제네릭(Generic)은 클래스 내부에서 타입을 지정하는 것이 아닌, 외부에서 사용자에 의해 지정되는 것을 의미한다.
+
+- 잘못된 타입이 들어오는 것을 컴파일 단계에서 방지할 수 있다.
+- 클래스 외부에서 타입을 지정하기 때문에 따로 타입을 체크하고 변환할 필요가 없어 관리하기 용이하다.
+- 비슷한 기능을 지원하는 경우 코드의 재사용성이 높아진다.
+
+### 프로세스와 스레드
+
+먼저 프로그램이란 어떤 작업을 하기 위해 실행할 수 있는 파일을 의미합니다.
+
+프로그램이 실행되면 메모리에 올라가며, 프로세스와 스레드에서 작업이 됩니다.
+
+그래서 프로그램 > 프로세스 > 스레드 순으로 실행이 됩니다.
+
+- 프로세스 (Process)
+  - 컴퓨터에서 실행되고 있는 프로그램
+  - 메모리에서 실행되고 있는 프로그램의 인스턴스
+  - 운영 체제로 부터 시스템 자원을 할당 받는 단위
+- 스레드 (Thread)
+  - 프로세스가 할당 받은 자원을 이용하는 실행 단위
+  - 하나의 프로세스에 여러 스레드가 존재하며, 힙을 통해 공유 가능
+- 멀티 프로세스 (Multi Process)
+  - 하나의 프로그램을 여러 개의 프로세스로 구성하여, 각각의 프로세스가 개별 작업을 빠르게 처리
+  - 문제 발생 시에 다른 프로세스에 영향을 주지 않음
+  - 프로세스 간에 통신 비용이 크고 복잡함
+- 멀티 스레드 (Multi Thread)
+  - 하나의 프로그램을 여러 개의 스레드로 구성하여, 각각의 스레드가 개별 작업을 빠르게 처리
+  - 자원의 효율성 증대
+  - 처리 비용 감소 및 응답 시간 단축
+  - 자원을 공유하면서 동기화 문제 발생 가능
+
+### Singleton Pattern
 
 
-[//]: # (* [1. Call by value vs Call by Reference]{:.heading.flip-title})
-
-[//]: # (* [2. String 종류, 접근 제어 지시자]{:.heading.flip-title})
-
-[//]: # (* [3. == 와 equals&#40;&#41; 차이 & Wrapper Class]{:.heading.flip-title})
-
-[//]: # (* [4. 기본형과 참조형, 오버라이딩과 오버로딩]{:.heading.flip-title})
-
-[//]: # (* [5. final, non-static & static]{:.heading.flip-title})
-
-[//]: # (* [6. 추상 클래스]{:.heading.flip-title})
-
-[//]: # (* [7. 인터페이스]{:.heading.flip-title})
-
-[//]: # (* [8. 변수의 종류와 메모리 구조]{:.heading.flip-title})
-
-[//]: # (* [9. Thread]{:.heading.flip-title})
-
-[//]: # (* [10. String]{:.heading.flip-title})
-
-[//]: # (* [11. JVM]{:.heading.flip-title})
-
-[//]: # ()
-[//]: # ()
-[//]: # ([1. Call by value vs Call by Reference]: 1.md)
-
-[//]: # ([2. String 종류, 접근 제어 지시자]: 2.md)
-
-[//]: # ([3. == 와 equals&#40;&#41; 차이 & Wrapper Class]: 3.md)
-
-[//]: # ([4. 기본형과 참조형, 오버라이딩과 오버로딩]: 4.md)
-
-[//]: # ([5. final, non-static & static]: 5.md)
-
-[//]: # ([6. 추상 클래스]: 6.md)
-
-[//]: # ([7. 인터페이스]: 7.md)
-
-[//]: # ([8. 변수의 종류와 메모리 구조]: 8.md)
-
-[//]: # ([9. Thread]: 9.md)
-
-[//]: # ([10. String]: 10.md)
-
-[//]: # ([11. JVM]: 11.md)
