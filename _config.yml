@@ -63,6 +63,8 @@ menu:
     url:                /cs/
   - title:             MySQL
     url:               /mysql/
+  - title: Trouble Shooting
+    url: /ts/
 
 
 # Add links to the footer.
